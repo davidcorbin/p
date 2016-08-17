@@ -23,10 +23,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-// Fading fun
+// Fade in icon
 $('.herologo').fadeTo(2500, 1, function() {
+    // Fade in h2
     $(".herocontent h2").fadeTo(2000, 1);
+    // Fade in h1
     $(".herocontent h1").fadeTo(1500, 1, function() {
-        $(".navbar").fadeTo(1000, 1);
+        // Face in download button
+        $(".herocontent .download").fadeTo(1000, 1);
+        // Fade in navbar
+        $(".navbar").fadeTo(1000, 1, function(){
+            $("#howitworks").show();
+        });
     });
 });
