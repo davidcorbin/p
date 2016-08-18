@@ -88,7 +88,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    /*color: #fff;*/
+    color: #000;
 }
 
 .navbar-custom .nav li a {
@@ -99,7 +99,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    /*color: rgba(255,255,255,.8);*/
+    color: rgba(26, 26, 26, 0.8);
     background-color: transparent;
 }
 
@@ -135,7 +135,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: rgba(243, 235, 242, 0.91);
+        background: rgba(255, 255, 255, 0.91);
     }
 }
 
