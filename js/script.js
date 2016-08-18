@@ -33,7 +33,9 @@ $('.herologo').fadeTo(2500, 1, function() {
         $(".herocontent .download").fadeTo(1000, 1);
         // Fade in navbar
         $(".navbar").fadeTo(1000, 1, function(){
-            $("#howitworks").show();
+            $("#whatitdoes").show();
+            $(".pcons").show();
+            $("hr").show();
         });
     });
 });

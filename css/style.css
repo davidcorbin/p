@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: #000;
     background-color: #fff;
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
@@ -296,13 +296,13 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #a4fcaf;
     background: rgba(255,255,255,.2);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #a4fcaf;
     background: rgba(255,255,255,.2);
 }
 
@@ -353,17 +353,50 @@ img::-moz-selection {
     opacity: 0;
 }
 
-#howitworks {
-    color: black;
+#whatitdoes {
     display: none;
 }
 
-#howitworks img {
+#whatitdoes .row {
+    display: flex;
+    align-items: center;
+}
+
+#whatitdoes img {
     max-width: 100%;
 }
 
-#howitworks .textpanel {
+#whatitdoes .textpanel {
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.pcons {
+    padding: 2em 0;
+    display: none;
+}
+
+.pcon {
+    text-align: center;
+}
+
+.pcon i {
+    padding: 0.6em 0 0.1em;
+    font-size: 5em;
+}
+
+.pcon h4 {
+    margin: 0.6em;
+}
+
+.pcon p {
+    font-size: 1em;
+}
+
+hr {
+    display: none;
 }
 
 /* Custom Scrollbar */
